@@ -94,7 +94,4 @@ programador(1..5).
 % Descomenta la siguiente linea cuando hayas creado
 % el predicado combinacion(P, C, D, L, B, M).
 
-
 #show combinacion/6.
-% %#show programador_ciudad/2.
-% %#show bebestible_musica/2.

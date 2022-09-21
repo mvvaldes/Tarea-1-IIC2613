@@ -71,7 +71,7 @@ prerequisite(progra_avanzada, edd).
 
 prerequisite(discretas, inferencia).
 prerequisite(c3, inferencia).
-prerequisite(prob, inferencia).
+prerequisite(proba, inferencia). % prob por proba
 
 prerequisite(discretas, capstone).
 prerequisite(progra_avanzada, capstone).
@@ -99,7 +99,7 @@ dictates_on(dinamica, 1).
 dictates_on(dinamica, 2).
 dictates_on(intro_economia, 2).
 dictates_on(intro_progra, 1).
-dictates_on(c2, 1).
+dictates_on(c2, 1). 
 dictates_on(let, 1).
 dictates_on(c3, 2).
 dictates_on(exploratorio, 1).
@@ -132,7 +132,7 @@ dictates_on(ssoo, 1).
 dictates_on(ssoo, 2).
 dictates_on(capstone, 2).
 dictates_on(bdd_2, 2).
-dictates_on(optativo_5, 1).
+dictates_on(optativo_5, 1). 
 dictates_on(teologico, 2).
 
 approved_at(c1, 1).

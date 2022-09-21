@@ -1,0 +1,428 @@
+[
+    [
+        {
+            "name": "c1",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": true
+        },
+        {
+            "name": "desafios",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": true
+        },
+        {
+            "name": "optativo_2",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": true
+        },
+        {
+            "name": "let",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": true
+        },
+        {
+            "name": "quim",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": true
+        }
+    ],
+    [
+        {
+            "name": "lineal",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": true
+        },
+        {
+            "name": "teologico",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": true
+        },
+        {
+            "name": "mineria",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": true
+        },
+        {
+            "name": "optativo_5",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": true
+        },
+        {
+            "name": "c2",
+            "prerequisites": [
+                "c1"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": true
+        }
+    ],
+    [
+        {
+            "name": "arqui",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "intro_progra",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "discretas",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "ia",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "etica",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": false
+        }
+    ],
+    [
+        {
+            "name": "dinamica",
+            "prerequisites": [
+                "c1"
+            ],
+            "corequisites": [
+                "lineal"
+            ],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "c3",
+            "prerequisites": [
+                "c2"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "progra_avanzada",
+            "prerequisites": [
+                "intro_progra"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "proba",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "software",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        }
+    ],
+    [
+        {
+            "name": "bdd",
+            "prerequisites": [
+                "progra_avanzada"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "edd",
+            "prerequisites": [
+                "progra_avanzada"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "exploratorio",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "infovis",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "optativo_4",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        }
+    ],
+    [
+        {
+            "name": "termo",
+            "prerequisites": [
+                "c2"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "optimizacion",
+            "prerequisites": [
+                "c2",
+                "lineal"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "intro_economia",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "optativo_3",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "patrones",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        }
+    ],
+    [
+        {
+            "name": "electro",
+            "prerequisites": [],
+            "corequisites": [
+                "c3"
+            ],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "edo",
+            "prerequisites": [
+                "c2",
+                "lineal"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "inferencia",
+            "prerequisites": [
+                "discretas",
+                "c3",
+                "proba"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "biologico",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        },
+        {
+            "name": "web",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                1
+            ],
+            "approved": false
+        }
+    ],
+    [
+        {
+            "name": "bdd_2",
+            "prerequisites": [
+                "bdd"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "innova",
+            "prerequisites": [
+                "desafios"
+            ],
+            "corequisites": [],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "capstone",
+            "prerequisites": [
+                "discretas",
+                "progra_avanzada",
+                "bdd",
+                "software",
+                "mineria",
+                "edd",
+                "ia"
+            ],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "optativo_1",
+            "prerequisites": [],
+            "corequisites": [],
+            "dictates": [
+                2
+            ],
+            "approved": false
+        },
+        {
+            "name": "ssoo",
+            "prerequisites": [],
+            "corequisites": [
+                "arqui"
+            ],
+            "dictates": [
+                1,
+                2
+            ],
+            "approved": false
+        }
+    ]
+]
